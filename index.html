@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html data-report-errors="1" data-rc="" data-user-agent="" data-login="">
 <head>
-  <base href="/flutterdemo/">
-
-  <!-- <base href="/"> -->
+  <base href="/">
   <script>
     window.flutterConfiguration = {
       canvasKitBaseUrl: "/canvaskit/"
@@ -24,7 +22,7 @@
     crossorigin="anonymous">
   </script>
   <script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkyoOQkXsMJMt7zw-gyuInIPU9Z3--Vxk"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkyoOQkXsMJMt7zw-gyuInIPU9Z3--Vxk&libraries=places"
   async
   defer>
 </script>
@@ -136,7 +134,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    const serviceWorkerVersion = "2448466459";
+    const serviceWorkerVersion = "4139384810";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
